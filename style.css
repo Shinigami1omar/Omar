@@ -1,0 +1,32 @@
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.project-link {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
+}
+
+.project-link:first-child {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.project-link:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
